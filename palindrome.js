@@ -25,13 +25,6 @@ console.log(result)
 
 
 
-
-
-
-
-
-
-
 // const palindrome = (item) => {
 //     const newArr = []
     
