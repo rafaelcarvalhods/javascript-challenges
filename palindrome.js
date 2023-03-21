@@ -7,17 +7,17 @@ const isPalindrome = (element) => {
         console.log(i, element[i]);
         console.log(lastElement, element[lastElement]);
 
-        if(element[i] =! element[lastElement]){
-            return false
-        } else if(i =! middle){
+        if(element[i] == element[lastElement] && i != lastElement){
             lastElement -= 1
+        } else {
+            return false
         }
     }
 
     return true
 }
 
-let result = isPalindrome([1, 2, 3, 1])
+let result = isPalindrome([1, 2, 2, 2, 1])
 console.log(result)
 
 
